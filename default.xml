@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="github" fetch="https://github.com" revision="refs/heads/release_34"/>
+
+<default remote="github"/>
+<project path="code/llvm" name="llvm-mirror/llvm"/>
+<project path="code/llvm/tools/clang" name="llvm-mirror/clang"/>
+<project path="code/llvm/projects/libcxxabi" name="llvm-mirror/libcxxabi" revision="refs/heads/release_32"/>
+<project path="code/llvm/projects/libcxx" name="llvm-mirror/libcxx"/>
+</manifest>
